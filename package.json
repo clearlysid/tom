@@ -1,0 +1,10 @@
+{
+  "name": "tom",
+  "version": "0.0.1",
+  "description": "Helper to track (Jerry) mouse cross-platform.",
+  "main": "index.js",
+  "repository": "https://github.com/clearlysid/tom.git",
+  "author": "Siddharth <siddharth99c@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
