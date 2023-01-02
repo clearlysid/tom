@@ -1,7 +1,8 @@
 import { execa } from 'execa'
+import path from 'path'
 
 const main = () => {
-	execa('ls', ['-l']).then(({stdout}) => {
+	execa(path.join('./bin/macos')).then(({stdout}) => {
 		console.log(stdout)
 		})
 }
